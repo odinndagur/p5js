@@ -1,6 +1,6 @@
 let myCanvas;
 function setup(){
-    myCanvas = createCanvas(winWidth, winHeight);
+    myCanvas = createCanvas(windowWidth,windowHeight);
     myCanvas.parent("app");
 }
 
