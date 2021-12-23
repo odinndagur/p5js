@@ -6,7 +6,8 @@
     <link rel="apple-touch-icon" href="./img/icons/apple-touch-icon.png">
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <meta name="theme-color" content="#14181c"/>
-    <meta name="viewport" content="width=device-width, viewport-fit=cover, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <!--<meta name="viewport" content="width=device-width, viewport-fit=cover, initial-scale=1, maximum-scale=1, user-scalable=no" />-->
+    <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta name="theme-color" content="white"/>
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -36,6 +37,7 @@
     html{
       margin:none;
       border:none;
+      padding-bottom: env(safe-area-inset-bottom) !important;
     }
     #app{
       width: 100vw;
