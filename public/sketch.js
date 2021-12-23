@@ -1,7 +1,7 @@
 let myCanvas;
 function setup(){
     myCanvas = createCanvas(winWidth, winHeight);
-    myCanvas.parent("idnameofdiv");
+    myCanvas.parent("app");
 }
 
 function draw(){
